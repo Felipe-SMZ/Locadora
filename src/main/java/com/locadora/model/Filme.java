@@ -15,4 +15,36 @@ public class Filme {
     @ManyToOne
     @NotNull
     private Tipo tipo;
+
+    public Filme() {
+    }
+
+    public Filme(String titulo, Tipo tipo) {
+        this.titulo = titulo;
+        this.tipo = tipo;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(Tipo tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 }

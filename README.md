@@ -1,7 +1,8 @@
 ```markdown
 # 🎬 Locadora de Filmes
 
-Este projeto é uma API REST desenvolvida com **Spring Boot** para gerenciar uma locadora de filmes. Ele permite cadastrar filmes, tipos de filme (como ação, comédia, etc.), e clientes com CPF validado.
+Este projeto é uma API REST desenvolvida com **Spring Boot** para gerenciar uma locadora de filmes.
+Ele permite cadastrar filmes, tipos de filme (como ação, comédia, etc.), e clientes com CPF validado.
 
 ---
 

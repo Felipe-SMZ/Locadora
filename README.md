@@ -29,7 +29,6 @@ Ele permite cadastrar filmes, tipos de filme (como ação, comédia, etc.), e cl
 
 ## 📂 Estrutura do projeto
 
-```
 src/
 ├── main/
 │   ├── java/com/locadora/
@@ -39,7 +38,6 @@ src/
 │   └── resources/
 │       └── application.properties
 └── README.md
-```
 
 ---
 

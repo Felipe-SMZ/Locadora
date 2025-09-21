@@ -1,5 +1,3 @@
-Claro, Felipe! Aqui está o conteúdo completo do `README.md` para o seu projeto da Locadora de Filmes com Spring Boot. Você pode copiar e colar diretamente no arquivo `README.md` na raiz do seu projeto:
-
 ```markdown
 # 🎬 Locadora de Filmes
 
@@ -91,5 +89,3 @@ src/
 Cotia, São Paulo — Brasil 🇧🇷  
 Projeto acadêmico para fins de estudo e prática com Spring Boot.
 ```
-
-Se quiser, posso te ajudar a adicionar instruções para deploy em produção, conexão com banco MySQL ou até gerar uma versão em inglês. Quer deixar ele mais robusto?

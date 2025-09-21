@@ -19,4 +19,46 @@ public class Aluguel {
 
     private LocalDate dataAluguel;
     private LocalDate dataDevolucao;
+
+    public Aluguel() {
+    }
+
+    public Aluguel(List<Filme> filmes, Cliente cliente, LocalDate dataAluguel, LocalDate dataDevolucao) {
+        this.filmes = filmes;
+        this.cliente = cliente;
+        this.dataAluguel = dataAluguel;
+        this.dataDevolucao = dataDevolucao;
+    }
+
+    public List<Filme> getFilmes() {
+        return filmes;
+    }
+
+    public void setFilmes(List<Filme> filmes) {
+        this.filmes = filmes;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public LocalDate getDataAluguel() {
+        return dataAluguel;
+    }
+
+    public void setDataAluguel(LocalDate dataAluguel) {
+        this.dataAluguel = dataAluguel;
+    }
+
+    public LocalDate getDataDevolucao() {
+        return dataDevolucao;
+    }
+
+    public void setDataDevolucao(LocalDate dataDevolucao) {
+        this.dataDevolucao = dataDevolucao;
+    }
 }
